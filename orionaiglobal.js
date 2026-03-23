@@ -31,8 +31,8 @@ app.get('/', (req, res) => {
 
 
 const options = {
-    cert: fs.readFileSync('/etc/letsencrypt/live/orionaiglobal.com/privkey.pem', 'utf-8'),
-    key: fs.readFileSync('/etc/letsencrypt/live/orionaiglobal.com/fullchain.pem', 'utf-8'),
+    key: fs.readFileSync('/etc/letsencrypt/live/orionaiglobal.com/privkey.pem'),
+    cert: fs.readFileSync('/etc/letsencrypt/live/orionaiglobal.com/fullchain.pem'),
 };
 
 
