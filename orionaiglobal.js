@@ -26,14 +26,15 @@ mongoose.connect(process.env.MONGO_URI, {
 // Routes
 app.use('/api/leads', leadRoutes);
 app.get('/', (req, res) => {
-    res.send('API is working');
+    res.send('orionaiglobal API  is working');
 });
 
 
 const options = {
-    cert: fs.readFileSync('/etc/letsencrypt/archive/orionaiglobalbrands.com/fullchain1.pem', 'utf-8'),
-    key: fs.readFileSync('/etc/letsencrypt/archive/orionaiglobalbrands.com/privkey1.pem', 'utf-8'),
+    cert: fs.readFileSync('/etc/letsencrypt/live/orionaiglobal.com/privkey.pem', 'utf-8'),
+    key: fs.readFileSync('/etc/letsencrypt/live/orionaiglobal.com/fullchain.pem', 'utf-8'),
 };
+
 
 
 

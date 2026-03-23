@@ -70,9 +70,9 @@ exports.createLead = async (req, res) => {
                  box-shadow:0 3px 12px rgba(0,0,0,0.10); overflow:hidden; width:100%;">
           
           <h2 class="header"
-            style="background-color:#1a1a2e; color:white; padding:18px 25px; margin:0; font-size:22px;">
-            New Contact Lead – ORION AI GLOBAL
-          </h2>
+  style="background: linear-gradient(135deg, #4f22d4, #7c3aed); color:white; padding:18px 25px; margin:0; font-size:22px;">
+  New Contact Lead – ORION AI GLOBAL
+</h2>
 
           <div class="content" style="padding:25px;">
             <p style="font-size:15px; margin:0 0 10px;">Hello Admin,</p>
